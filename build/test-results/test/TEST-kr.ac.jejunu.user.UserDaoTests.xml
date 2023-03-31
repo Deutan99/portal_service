@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kr.ac.jejunu.user.UserDaoTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-24T10:01:48" hostname="heojaehyeog-ui-MacBookPro.local" time="0.469">
+<testsuite name="kr.ac.jejunu.user.UserDaoTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-31T09:11:51" hostname="heojaehyeog-ui-MacBookPro.local" time="0.196">
   <properties/>
-  <testcase name="get()" classname="kr.ac.jejunu.user.UserDaoTests" time="0.469"/>
+  <testcase name="get()" classname="kr.ac.jejunu.user.UserDaoTests" time="0.196"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
