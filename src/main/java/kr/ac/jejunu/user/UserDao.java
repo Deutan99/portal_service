@@ -1,11 +1,17 @@
 package kr.ac.jejunu.user;
 
+import org.springframework.jdbc.core.JdbcTemplate;
+
 import java.sql.SQLException;
 
 public class UserDao {
     private final JdbcContext jdbcContext;
 
     public UserDao(JdbcContext jdbcContext) {
+        this.jdbcContext = jdbcContext;
+    }
+
+    public UserDao(JdbcTemplate jdbcTemplate, JdbcContext jdbcContext) {
         this.jdbcContext = jdbcContext;
     }
 
